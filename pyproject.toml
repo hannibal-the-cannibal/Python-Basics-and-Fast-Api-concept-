@@ -1,0 +1,19 @@
+[project]
+name = "python-basics-and-fast-api-concepts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "hannibal-the-cannibal", email = "shreeshbhardwaj@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.14.3",
+]
+
+[project.scripts]
+python-basics-and-fast-api-concepts = "python_basics_and_fast_api_concepts:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
